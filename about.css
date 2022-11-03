@@ -1,0 +1,98 @@
+.aboutBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: #525666; */
+  /* color: #9598a5; */
+  color: #00ffea;
+}
+
+.aboutBody .info {
+  flex: 2;
+  margin-top: 7vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-size: 1.7vw;
+}
+
+.aboutBody .info p{
+  color: #aaff00;
+}
+
+ul{
+  color:#222834
+}
+
+.aboutBody .info p{
+  letter-spacing: 00.2vw;
+}
+
+.aboutBody .info h3{
+  font-size: 3.5vw;
+}
+
+.aboutBody .expertise {
+  flex: 1;
+  margin-right: 2vw;
+  margin-top: 9vw;
+  background-color: rgb(255, 216, 100);
+  border-radius: 1vw;
+  padding: 3vw;
+  font-size: 2vw;
+  box-shadow: 0vw 0vw 20px #000000;
+  transition: 500ms;
+}
+
+/* .expertise:hover {
+  box-shadow: 0vw 0vw 20px #000000;
+} */
+
+.projects{
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+  background-color: #FAEBD7;
+  margin: 0 10vw;
+  margin-bottom: 2vw;
+  padding: 2vw;
+  border-radius: 3vw;
+  flex-direction: column;
+  align-items: center;
+  border: 0.5vw #ffffff solid;
+  box-shadow: 0 0 30px #87877384;
+}
+
+.projectIMG{
+  display: flex;
+  flex-direction: row;
+}
+
+.projects .projectIMG img{
+  width: 20vw;
+  margin: 1vw 3vw;
+  border-radius: 1vw;
+  transition: 400ms;
+}
+
+.projects .projectIMG img:hover{
+  box-shadow: -1vw -1vw 50px #87877384;
+  cursor: pointer;
+}
+
+.shooting, .trex, .pokedex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proto1{
+  margin-top: 50px;
+}
+
+.aboutProduct{
+  margin-top: 50px;
+}
+
+#proto2{
+  margin-left: 25px;
+}

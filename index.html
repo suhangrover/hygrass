@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hygrass | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+      overflow-y: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="./index.html" class="navItem">Home</a>
+    <a href="./about.html" class="navItem">About</a>
+    <a href="./contact.html" class="navItem">Contact</a>
+  </div>
+  <div class="mainBody">
+    <div class="info">
+      <br>
+      <h3>We the team of Bal Bharati public school present to you  <font>"HYGRASS BOTANICAL"</font></h3>
+      <p>Our <strong>revolution</strong> in the feild of Agriculture, <strong>"HYGRASS"</strong>, requires comparatively less water consumption and eliminates the need for soil</p>
+      <br>
+      <a href="./about.html" class="aboutButton">Know more about us</a>
+      <div class="socials">
+        <br>
+        <br>
+
+      </div>
+    </div>
+    <div id="imageLogo">
+      <img src="newLogo.png" alt="Logo">
+    </div>
+  </div>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDWfv_CCW2KshoFRXF9DXzLCVADipuVLh8",
+      authDomain: "pratyush-garg.firebaseapp.com",
+      projectId: "pratyush-garg",
+      storageBucket: "pratyush-garg.appspot.com",
+      messagingSenderId: "591691041068",
+      appId: "1:591691041068:web:29d889a0d42d62229c4489",
+      measurementId: "G-93K7DX9RXE"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+
+</html>
